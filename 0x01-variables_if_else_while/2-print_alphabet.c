@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints the alphabet in lowercase
+ *
  * Return: 0 (Success)
  */
 
@@ -11,9 +12,9 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z') {
-putchar(c)
-c++;
+			putchar(c);
+			c++;
 		}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
