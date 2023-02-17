@@ -23,7 +23,7 @@ int main(void)
 			putchar(c);
 			c++;
 		}
-	puthcar('\n');
+	putchar('\n');
 	return (0);
 }
 
