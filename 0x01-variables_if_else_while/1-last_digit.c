@@ -4,6 +4,7 @@
 
 /**
  * main - Assigning a random number to the variable n each time its executed
+ *
  * Return: 0 (Success)
  */
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
-	print("Last digit of %d is %d", n, x);
+	print("Last digit of %d is %d ", n, x);
 	if (x > 5)
 	{
 		printf(" and is greater than 5");
